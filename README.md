@@ -4,14 +4,14 @@ Bienvenido a Save Animals. Nuestro deber es proteger a los animales de los malos
 
 Buena suerte.
 
-Controles:
+## Controles:
 
 * Para moverte puedes usar las teclas W, S, A y D que indican las direcciones arriba, abajo, izquierda y derecha respectivamente.
 * Para liberar a los perros usa la tecla F en el momento en que te pares frente a ellos.
 * Una vez liberados los perros, presiona F justo en frente de la puerta para salir.
 * Haz click sobre la pantalla y mueve el ratón para rotar la cámara.
 
-Consejos:
+## Consejos:
 
 * Presiona F11 para jugar en modo de pantalla completa
 * Los enemigos no ven desde atrás, puedes seguirlos sin que te detecten.
@@ -19,7 +19,7 @@ Consejos:
 * Debes ser cauteloso en las esquinas, no sabes si habrá un guardia viendo. Puedes ayudarte con el cuadro de eventos.
 * Si te ven, corre, debes alejarte lo más que puedas de ellos para que te ignoren.
 
-Screenshots:
+## Screenshots:
 ![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/cbd691aa-5070-4923-b86f-a892a38a1399)
 
 ![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/4992ac49-377e-444e-97a8-cb1af77f6372)
@@ -27,7 +27,7 @@ Screenshots:
 ![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/589976ba-adb9-474f-87eb-ca37d477314d)
 
 
-Agradecimientos/ Greetings:
+# Agradecimientos/ Greetings:
 * [Erik Gunnar](http://open3dmodel.com/download/metal-cage-3d-model_3314.html)
 * [Roxas358](http://www.models-resource.com/playstation_2/kingdomhearts2/model/1327/)
 * [Doggyhow](http://free3dmodelsarchive.com/3d-model?elesis-travelers-set-15531)
