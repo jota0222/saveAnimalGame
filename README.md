@@ -1,3 +1,5 @@
+# Save Animals
+
 Bienvenido a Save Animals. Nuestro deber es proteger a los animales de los malos tratos a los que son sometidos a diario. Hoy te tenemos una misión, debes rescatar a unos perritos que serán usados para pruebas de laboratorio con unos químicos muy poco amigables y, después, serán sacrificados. La idea es que llegues al final de la perrera y los liberes sin que te detecten, yo estaré esperando fuera de la puerta para recibir a los perros. Tendrás 7 minutos para terminar tu misión antes de que llegue la recepcionista y lo descubra. Cuando los liberes a todos, regresa nuevamente aquí sin que los guardias sepan siquiera qué fue lo que pasó.
 
 Buena suerte.
@@ -16,6 +18,14 @@ Consejos:
 * Puedes esconderte tras las paredes para evitar que te vean.
 * Debes ser cauteloso en las esquinas, no sabes si habrá un guardia viendo. Puedes ayudarte con el cuadro de eventos.
 * Si te ven, corre, debes alejarte lo más que puedas de ellos para que te ignoren.
+
+Screenshots:
+![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/cbd691aa-5070-4923-b86f-a892a38a1399)
+
+![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/4992ac49-377e-444e-97a8-cb1af77f6372)
+
+![imagen](https://github.com/jota0222/saveAnimalGame/assets/12126375/589976ba-adb9-474f-87eb-ca37d477314d)
+
 
 Agradecimientos/ Greetings:
 * [Erik Gunnar](http://open3dmodel.com/download/metal-cage-3d-model_3314.html)
