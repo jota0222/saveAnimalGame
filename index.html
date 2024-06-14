@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%">
+  <head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Salva a los animales</title>
+    <!--Temas y estilos-->
+    <link rel="icon" href="favicon.gif" type="image/gif" />
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="css/SAStyles.css" rel="stylesheet" />
+    <!--Para el juego-->
+    <script src="js/babylon.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <!--<script src="js/cannon.js"></script>-->
+    <!--<script src="js/Oimo.js"></script>-->
+  </head>
+  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+    <div id="livesHUD">
+      <img src="images/HUD_live.png" width="70%" height="70%" />
+    </div>
+    <div id="lives"></div>
+
+    <div id="timeHUD">
+      <img src="images/HUD_time.png" width="50%" height="50%" />
+    </div>
+    <div id="countdown">
+      <span id="CTview">00:00</span>
+    </div>
+    <div id="pausaHUD">
+      <img src="images/HUD_pausa.png" style="vertical-align: bottom" onclick="pause()" width="40%" height="40%" />
+    </div>
+    <div id="soundHUD">
+      <img
+        id="sound"
+        src="images/HUD_sound1.png"
+        style="vertical-align: bottom"
+        onclick="soundC()"
+        width="40%"
+        height="40%"
+      />
+    </div>
+    <div id="dogsHUD">
+      <img src="images/HUD_dogs.png" style="vertical-align: bottom" width="70%" height="70%" />
+    </div>
+    <div id="dogs"></div>
+    <div id="eventsHUD">
+      <img src="images/HUD_events.png" width="370" height="80" />
+    </div>
+    <div id="events">
+      <span id="evtView">Libera a los perros sin que te atrapen</span>
+    </div>
+    <div id="retry">
+      <div id="retryView">
+        <label>¿Quieres volver a jugar?</label><br /><br />
+        <a class="button" onclick="restart()">Jugar</a>
+      </div>
+    </div>
+
+    <div id="nav-bar">Save Animals</div>
+
+    <div id="container">
+      <div id="details">
+        Bienvenido a Save Animals. Nuestro deber es proteger a los animales de los malos tratos a los que son sometidos
+        a diario. Hoy te tenemos una misión, debes rescatar a unos perritos que serán usados para pruebas de laboratorio
+        con unos químicos muy poco amigables y, después, serán sacrificados. La idea es que llegues al final de la
+        perrera y los liberes sin que te detecten, yo estaré esperando fuera de la puerta para recibir a los perros.
+        Tendrás 7 minutos para terminar tu misión antes de que llegue la recepcionista y lo descubra. Cuando los liberes
+        a todos, regresa nuevamente aquí sin que los guardias sepan siquiera qué fue lo que pasó.<br /><br />
+        Buena suerte.<br /><br />
+        <b>Nota:</b> Si el juego tarda mucho en cargar, intenta refrescar la página.<br />
+        <h1>Controles:</h1>
+        <ul>
+          <li>
+            Para moverte puedes usar las teclas <b>W, S, A y D</b> que indican las direcciones
+            <b>arriba, abajo, izquierda y derecha</b> respectivamente.
+          </li>
+          <li>Para liberar a los perros usa la tecla <b>F</b> en el momento en que te pares frente a ellos.</li>
+          <li>Una vez liberados los perros, presiona <b>F</b> justo en frente de la puerta para salir.</li>
+          <li>Haz <b>click</b> sobre la pantalla y <b>mueve el ratón</b> para rotar la cámara.</li>
+        </ul>
+        <h1>Consejos:</h1>
+        <ul>
+          <li>Presiona <b>F11</b> para jugar en modo de pantalla completa</li>
+          <li>Los enemigos no ven desde atrás, puedes seguirlos sin que te detecten.</li>
+          <li>Puedes esconderte tras las paredes para evitar que te vean.</li>
+          <li>
+            Debes ser cauteloso en las esquinas, no sabes si habrá un guardia viendo. Puedes ayudarte con el cuadro de
+            eventos.
+          </li>
+          <li>Si te ven, corre, debes alejarte lo más que puedas de ellos para que te ignoren.</li>
+        </ul>
+        <h1>Agradecimientos/ Greetings:</h1>
+        <ul>
+          <li><a href="http://open3dmodel.com/download/metal-cage-3d-model_3314.html">Erik Gunnar</a></li>
+          <li><a href="http://www.models-resource.com/playstation_2/kingdomhearts2/model/1327/">Roxas358</a></li>
+          <li><a href="http://free3dmodelsarchive.com/3d-model?elesis-travelers-set-15531">Doggyhow</a></li>
+          <li><a href="http://tf3dm.com/3d-model/wood-desk-93009.html">Farow</a></li>
+          <li><a href="http://tf3dm.com/3d-model/office-chair-34612.html">3dregenerator</a></li>
+          <li><a href="http://tf3dm.com/3d-model/window-29094.html">Justdoit</a></li>
+          <li><a href="https://www.youtube.com/watch?v=7Yr-ocskMNc">Tanawith Rittirut</a></li>
+          <li><a href="https://www.youtube.com/watch?v=yJxCdh1Ps48">Josh Streeter</a></li>
+          <li><a href="https://www.youtube.com/watch?v=v7fohPA9fk0">thesecession</a></li>
+          <li><a href="http://babylonjs.com/">Babylon.js Team</a></li>
+          <li>Donación por Yésica Ruiz</li>
+          <li>Creación por <a href="mailto:jdherandez@gmail.com">Juan David Hernández</a></li>
+        </ul>
+      </div>
+      <div id="buttonPlay">
+        <a id="begin" class="button" onclick="gameStart()">Cargando...</a>
+      </div>
+    </div>
+
+    <!--Para correr el juego-->
+    <canvas id="gameCanvas"></canvas>
+
+
+    <script src="js/BinaryHeap.js"></script>
+    <script src="js/gameScene.js"></script>
+    <script src="js/mainGame.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Node.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/LevelGrid.js"></script>
+    <script src="js/Dog.js"></script>
+    <!--<script src="js/cellShading.js"></script>-->
+  </body>
+</html>
